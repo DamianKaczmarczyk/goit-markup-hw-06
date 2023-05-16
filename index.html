@@ -444,6 +444,19 @@
             </li>
           </ul>
         </div>
+        <div class="newsletter-box">
+          <h4 class="join-us">Zapisz się do newslettera</h4>
+          <form class="newsletter-form">
+            <label>
+              <input class="newsletter-input" type="email" name="email" placeholder="E-mail" />
+            </label>
+            <button class="newsletter-button" type="submit">
+              Zapisz się<svg class="icon-send" width="24" height="24">
+                <use href="./images/icons.svg#icon-icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
@@ -453,6 +466,58 @@
             <use href="./images/icons.svg#icon-Vector"></use>
           </svg>
         </button>
+        <h3 class="h-modal">Zostaw swoje dane w formularzu poniżej</h3>
+        <form class="modal-form">
+          <div class="control">
+            <label class="label" for="name"> Imie</label>
+            <label class="input">
+              <svg class="svg-icon-modal" width="12" height="12">
+                <use href="./images/icons.svg#icon-person-black"></use>
+              </svg>
+              <input type="text" name="name" id="name" required />
+            </label>
+          </div>
+          <div class="control">
+            <label class="label" for="tel">Telefon</label>
+            <label class="input">
+              <svg class="svg-icon-modal" width="13" height="13">
+                <use href="./images/icons.svg#icon-phone-black"></use>
+              </svg>
+              <input type="tel" name="phone" id="phone" required />
+            </label>
+          </div>
+          <div class="control">
+            <label class="label" for="email">Email</label>
+            <label class="input">
+              <svg class="svg-icon-modal" width="15" height="12">
+                <use href="./images/icons.svg#icon-email-black"></use>
+              </svg>
+              <input type="email" name="email" id="email" required />
+            </label>
+          </div>
+          <div class="control">
+            <label class="label" for="textarea">Komentarz</label>
+            <label class="modal-label">
+              <textarea
+                class="modal-textarea"
+                name="comment"
+                placeholder="Wprowadź tekst"
+              ></textarea>
+            </label>
+          </div>
+          <div class="control">
+            <label>
+              <input type="checkbox" name="rules" required />
+              <svg class="svg-icon-bird" width="18px" height="18px" fill="ffffff">
+                <use href="./images/icons.svg#icon-vector"></use>
+              </svg>
+              <span class="modal-span">Oświadczam iż akceptuję</span>
+              <a class="rules-privates" href="#">Regulamin</a><span class="modal-span"> i</span>
+              <a class="rules-privates" href="#">Politykę Prywatności.</a>
+            </label>
+          </div>
+          <button class="modal-button" type="submit">Wyślij</button>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
