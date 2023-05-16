@@ -674,7 +674,6 @@ input:hover {
 }
 .control {
   margin-left: 40px;
-  justify-content: center;
 }
 .terms-checkbox {
   appearance: none;
@@ -702,7 +701,6 @@ input:hover {
 }
 .modal-span {
   font-family: var(--main-font);
-  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   color: var(--navigation-color);
